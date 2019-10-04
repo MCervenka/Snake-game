@@ -1,0 +1,39 @@
+body{
+text-align: center;
+}
+#container{
+	border: 2px solid red;
+	width: 520px;
+	height: 520px;
+	margin: 20px auto;
+	position: relative;
+
+}
+#snake{
+	background-color: black;
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	border: 3px solid #73AD21;
+	z-index: 2;
+}
+#youLose{
+	display: none;
+	margin: 20px 350px;
+	float: left;
+	width: 100px;
+    font-size: 50px;
+	height: 520px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+.yummy{
+	width: 40px;
+	height: 40px;
+    position: absolute;
+	z-index: 1;
+}
